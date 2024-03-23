@@ -1,11 +1,4 @@
-//module clock();
-//output reg clk;
-//initial begin
-//    clk <= 1'b0;
-//end
-//always #5 clk = ~clk;
-//initial #500 $finish;
-//endmodule
+
 module counter1 ( input clk, 
 input rstn, 
 output reg[2:0] out); 
